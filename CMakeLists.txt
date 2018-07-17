@@ -182,7 +182,7 @@ endif()
 # ---------------------------------------------------------
 
 if(NOT CMAKE_INSTALL_PREFIX)
-   set(CMAKE_INSTALL_PREFIX /usr/)
+   set(CMAKE_INSTALL_PREFIX /usr/local)
 endif(NOT CMAKE_INSTALL_PREFIX)
 
 # Check if it is a 64 bit system
